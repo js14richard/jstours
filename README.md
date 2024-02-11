@@ -1,2 +1,4 @@
-# natours
-Natours project
+# jstours
+Jstours project
+
+Extension: Color Highlight
