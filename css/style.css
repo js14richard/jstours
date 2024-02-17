@@ -40,17 +40,17 @@ body{
     /* clip-path: polygon(50% 0, 100% 100%, 0 100%); */
 }
 
-.nav-logo-box{
+.header__logo-box{
     position: absolute;
     top: 4rem;
     left:4rem;
 }
 
-.nav-logo{
-    height: 4.5rem;
+.header__logo{
+    height: 3.5rem;
 }
 
-.header-content{
+.header__content{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,21 +58,21 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.header-heading{
+.primary-heading{
     color:white;
     text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 6rem;
 }
 
-.header-heading-main{
+.primary-heading--main{
     font-weight: 400;
     font-size: 6rem;
     letter-spacing: 3.5rem;
     animation: comeFromLeft 1s ease-out;
 }
 
-.header-heading-sub{
+.primary-heading--sub{
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: 1.74rem;
@@ -113,7 +113,7 @@ body{
 .btn:visited{
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.5rem 1.5rem;
+    padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 10rem;
     transition: all .2s;
@@ -134,7 +134,7 @@ body{
     transition: all .4s;
 }
 
-.animated-btn{
+.animated--btn{
     animation: comeFromBottom .5s ease-out .8s;
     animation-fill-mode: backwards;
 }
@@ -154,12 +154,12 @@ body{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.white-btn{
+.white--btn{
     color:#777;
     background-color: white;
 }
 
-.white-btn::after{
+.white--btn::after{
     background-color: white;
 }
 
