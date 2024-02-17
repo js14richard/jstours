@@ -53,3 +53,28 @@
         animation-fill-mode: backwards;
     }
 }
+
+
+.btn-text{
+
+    &:link,&:visited{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.6rem ;
+        color: $color-primary;
+        border-bottom: .1rem solid $color-primary;
+        transition: all .2s;
+        padding: .3rem;
+    }
+
+    &:hover{
+        color:$color-white;
+        background-color: $color-primary;
+        transform: translateY(-.2rem);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+
+    &:active{
+        transform: translateY(0rem);
+    }
+}
