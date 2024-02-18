@@ -48,6 +48,15 @@
         }
     }
 
+    &--green{
+        color: $color-white;
+        background-color: $color-primary;
+
+        &::after{
+            background-color: $color-primary;
+        }
+    }
+
     &--animated{
         animation: comeFromBottom .5s ease-out .8s;
         animation-fill-mode: backwards;
